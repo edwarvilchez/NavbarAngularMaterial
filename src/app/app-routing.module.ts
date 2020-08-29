@@ -8,26 +8,11 @@ import { HomeComponent } from './home/home.component';
 
 
 const routes: Routes = [
-  {
-    path: 'home',
-    component: HomeComponent
-  },
-  {
-    path: 'add-user',
-    component: AddUserComponent
-  },
-  {
-    path: 'view-user',
-    component: ViewUserComponent
-  },
-  {
-    path: 'delete-user',
-    component: DeleteUserComponent
-  },
-  {
-    path: 'update-user',
-    component: UpdateUserComponent
-  }
+  { path: 'home', component: HomeComponent },
+  { path: 'add-user', component: AddUserComponent },
+  { path: 'view-user', component: ViewUserComponent },
+  { path: 'delete-user', component: DeleteUserComponent },
+  { path: 'update-user', component: UpdateUserComponent }
 ];
 
 @NgModule({
